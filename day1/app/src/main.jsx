@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Cbc from './component/Cbc.jsx'
-import Fbc from './component/Fbc.jsx'
-import Demo from './component/Demo.jsx'
+// import Cbc from './component/Cbc.jsx'
+// import Fbc from './component/Fbc.jsx'
+// import Demo from './component/Demo.jsx'
 import Parent from './props/Parent.jsx'
 
 createRoot(document.getElementById('root')).render(
