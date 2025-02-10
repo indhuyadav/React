@@ -10,7 +10,8 @@ import { createRoot } from 'react-dom/client'
 // import Parent from './props/Parent.jsx'
 // import State from './state/State.jsx'
 import "../src/styles/globally.css"
-import Comp3 from './list-keys/Comp3'
+import CompA from './useContext/CompA'
+// import Comp3 from './list-keys/Comp3'
 // import External from './styles/External'
 // import Ref from './useRef/Ref'
 // import List from './list-keys/List'
@@ -30,6 +31,7 @@ createRoot(document.getElementById('root')).render(
     {/* <External/> */}
     {/* <Ref/> */}
     {/* <List/> */}
-    <Comp3/>
+    {/* <Comp3/> */}
+    <CompA/>
   </StrictMode>,
 )

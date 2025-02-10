@@ -9,13 +9,13 @@ const List1 = (props) => {
   return (
     <Fragment>
         {
-            props.main.map((x)=>{
+            props.main.map(x=>{
+                console.log();
+                
                 return(
-                    <>
-                    <ol>
-                        <li key={x.id}> {x.name} </li>
-                    </ol>
-                    </>
+                    <Fragment key={x.id}>
+                        <li>{x.name}</li>
+                    </Fragment>
                 )
             })
         }
