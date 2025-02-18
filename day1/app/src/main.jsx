@@ -11,7 +11,8 @@ import { createRoot } from 'react-dom/client'
 // import State from './state/State.jsx'
 import "../src/styles/globally.css"
 // import CompA from './useContext/CompA'
-import UseEffect from './useeffect/UseEffect'
+// import UseEffect from './useeffect/UseEffect'
+import Child from './HOC/Child'
 // import Comp3 from './list-keys/Comp3'
 // import External from './styles/External'
 // import Ref from './useRef/Ref'
@@ -34,6 +35,7 @@ createRoot(document.getElementById('root')).render(
     {/* <List/> */}
     {/* <Comp3/> */}
     {/* <CompA/> */}
-    <UseEffect/>
+    {/* <UseEffect/> */}
+    <Child/>
   </StrictMode>,
 )
